@@ -21,10 +21,17 @@
         }
 
         .balloon-div img {
-            /* height: 60%; */
             position: relative;
             -webkit-animation: MoveUpDown 2s linear infinite;
 
+
+        }
+
+        @media only screen and (max-width: 600px) {
+            .balloon-div img {
+                width: 100%;
+
+            }
 
         }
 
@@ -44,7 +51,7 @@
             }
         }
 
-        
+
 
 
 
@@ -229,9 +236,10 @@
         }
 
         .image {
-            
+
             text-align: center;
         }
+
         .image img {
             max-height: 300px;
             border-radius: 5px;
